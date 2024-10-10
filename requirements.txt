@@ -1,6 +1,5 @@
 absl-py==2.1.0
 alembic==1.13.3
-pywin32  # Updated to allow latest compatible version
 annotated-types==0.7.0
 anyio==4.4.0
 argon2-cffi==23.1.0
