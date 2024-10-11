@@ -1,7 +1,7 @@
 document.getElementById('analyzeButton').addEventListener('click', async () => {
     const inputText = document.getElementById('inputText').value;
 
-    const response = await fetch('http://localhost:7070/analyze', { // Updated to localhost
+    const response = await fetch('https://emotionpwa-5.onrender.com/analyze', { // Updated to localhost
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
